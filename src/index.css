@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#app {
+  font-family: 'Open Sans', system-ui;
+  width: 100%;
+  overflow-y: scroll;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+:root {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hover-gradient {
+  background-color: linear-gradient(90deg, #0a76bd 6%, #4aacee 96%);
+}
